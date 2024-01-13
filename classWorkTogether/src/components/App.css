@@ -1,0 +1,111 @@
+.App {
+    width: 100%;
+    height: auto;
+    background-color: rgb(236, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Register {
+    width: 40%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px 0px 20px 5px lightgrey;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+form {
+    width: 100%;
+    height: auto;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: lightgrey;
+}
+.theform {
+    width: 100%;
+    height: auto;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.field {
+    width: 70%;
+    height: auto;
+    /* background-color: aqua; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.field > input {
+    width: 100%;
+    height: 45px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+}
+.submitbtn {
+    width: 70%;
+    height: 45px;
+    background-color: rgb(185, 15, 9);
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 15px;
+    color: white;
+    cursor: pointer;
+}
+.thelink {
+    color: rgb(190, 21, 15);
+    text-decoration: none;
+}
+
+.Login {
+    width: 35%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 5px lightgrey;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.field > p {
+    color: red;
+    font-size: 10px;
+}
+
+.centered-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.alert {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .error {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+  }
+  
+  .success {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: green;
+  }
+  
